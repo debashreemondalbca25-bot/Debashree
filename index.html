@@ -22,6 +22,7 @@
             padding: 30px 20px;
             border-radius: 20px;
             max-width: 400px;
+            animation: fadeIn 1.5s ease-in-out;
             box-shadow: 0 5px 15px #0002;
         }
 
@@ -42,6 +43,16 @@
             border-radius: 20px;
             font-size: 16px;
         }
+        @keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
     </style>
 </head>
 
